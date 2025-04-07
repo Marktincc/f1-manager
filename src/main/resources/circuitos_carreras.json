@@ -1,0 +1,341 @@
+{
+  "temporada": 2024,
+  "eventos": [
+    {
+      "nombre": "Bahrain Grand Prix",
+      "circuito": {
+        "nombre": "Bahrain International Circuit",
+        "pais": "Bahrain",
+        "ciudad": "Sakhir",
+        "longitud": 5.412,
+        "vueltas": 57,
+        "distancia_total": 308.238
+      },
+      "fecha_carrera": "2024-03-02",
+      "fecha_sprint": null,
+      "numero_carrera": 1
+    },
+    {
+      "nombre": "Saudi Arabian Grand Prix",
+      "circuito": {
+        "nombre": "Jeddah Corniche Circuit",
+        "pais": "Arabia Saudita",
+        "ciudad": "Jeddah",
+        "longitud": 6.174,
+        "vueltas": 50,
+        "distancia_total": 308.45
+      },
+      "fecha_carrera": "2024-03-09",
+      "fecha_sprint": null,
+      "numero_carrera": 2
+    },
+    {
+      "nombre": "Australian Grand Prix",
+      "circuito": {
+        "nombre": "Albert Park Circuit",
+        "pais": "Australia",
+        "ciudad": "Melbourne",
+        "longitud": 5.278,
+        "vueltas": 58,
+        "distancia_total": 306.124
+      },
+      "fecha_carrera": "2024-03-24",
+      "fecha_sprint": null,
+      "numero_carrera": 3
+    },
+    {
+      "nombre": "Japanese Grand Prix",
+      "circuito": {
+        "nombre": "Suzuka Circuit",
+        "pais": "Japón",
+        "ciudad": "Suzuka",
+        "longitud": 5.807,
+        "vueltas": 53,
+        "distancia_total": 307.471
+      },
+      "fecha_carrera": "2024-04-07",
+      "fecha_sprint": null,
+      "numero_carrera": 4
+    },
+    {
+      "nombre": "Chinese Grand Prix",
+      "circuito": {
+        "nombre": "Shanghai International Circuit",
+        "pais": "China",
+        "ciudad": "Shanghai",
+        "longitud": 5.451,
+        "vueltas": 56,
+        "distancia_total": 305.066
+      },
+      "fecha_carrera": "2024-04-21",
+      "fecha_sprint": "2024-04-20",
+      "numero_carrera": 5
+    },
+    {
+      "nombre": "Miami Grand Prix",
+      "circuito": {
+        "nombre": "Miami International Autodrome",
+        "pais": "Estados Unidos",
+        "ciudad": "Miami",
+        "longitud": 5.412,
+        "vueltas": 57,
+        "distancia_total": 308.326
+      },
+      "fecha_carrera": "2024-05-05",
+      "fecha_sprint": "2024-05-04",
+      "numero_carrera": 6
+    },
+    {
+      "nombre": "Emilia Romagna Grand Prix",
+      "circuito": {
+        "nombre": "Autodromo Enzo e Dino Ferrari",
+        "pais": "Italia",
+        "ciudad": "Imola",
+        "longitud": 4.909,
+        "vueltas": 63,
+        "distancia_total": 309.049
+      },
+      "fecha_carrera": "2024-05-19",
+      "fecha_sprint": null,
+      "numero_carrera": 7
+    },
+    {
+      "nombre": "Monaco Grand Prix",
+      "circuito": {
+        "nombre": "Circuit de Monaco",
+        "pais": "Mónaco",
+        "ciudad": "Monte Carlo",
+        "longitud": 3.337,
+        "vueltas": 78,
+        "distancia_total": 260.286
+      },
+      "fecha_carrera": "2024-05-26",
+      "fecha_sprint": null,
+      "numero_carrera": 8
+    },
+    {
+      "nombre": "Canadian Grand Prix",
+      "circuito": {
+        "nombre": "Circuit Gilles Villeneuve",
+        "pais": "Canadá",
+        "ciudad": "Montreal",
+        "longitud": 4.361,
+        "vueltas": 70,
+        "distancia_total": 305.27
+      },
+      "fecha_carrera": "2024-06-09",
+      "fecha_sprint": null,
+      "numero_carrera": 9
+    },
+    {
+      "nombre": "Spanish Grand Prix",
+      "circuito": {
+        "nombre": "Circuit de Barcelona-Catalunya",
+        "pais": "España",
+        "ciudad": "Barcelona",
+        "longitud": 4.675,
+        "vueltas": 66,
+        "distancia_total": 308.424
+      },
+      "fecha_carrera": "2024-06-23",
+      "fecha_sprint": null,
+      "numero_carrera": 10
+    },
+    {
+      "nombre": "Austrian Grand Prix",
+      "circuito": {
+        "nombre": "Red Bull Ring",
+        "pais": "Austria",
+        "ciudad": "Spielberg",
+        "longitud": 4.318,
+        "vueltas": 71,
+        "distancia_total": 306.452
+      },
+      "fecha_carrera": "2024-06-30",
+      "fecha_sprint": "2024-06-29",
+      "numero_carrera": 11
+    },
+    {
+      "nombre": "British Grand Prix",
+      "circuito": {
+        "nombre": "Silverstone Circuit",
+        "pais": "Reino Unido",
+        "ciudad": "Silverstone",
+        "longitud": 5.891,
+        "vueltas": 52,
+        "distancia_total": 306.198
+      },
+      "fecha_carrera": "2024-07-07",
+      "fecha_sprint": null,
+      "numero_carrera": 12
+    },
+    {
+      "nombre": "Hungarian Grand Prix",
+      "circuito": {
+        "nombre": "Hungaroring",
+        "pais": "Hungría",
+        "ciudad": "Budapest",
+        "longitud": 4.381,
+        "vueltas": 70,
+        "distancia_total": 306.63
+      },
+      "fecha_carrera": "2024-07-21",
+      "fecha_sprint": null,
+      "numero_carrera": 13
+    },
+    {
+      "nombre": "Belgian Grand Prix",
+      "circuito": {
+        "nombre": "Circuit de Spa-Francorchamps",
+        "pais": "Bélgica",
+        "ciudad": "Spa",
+        "longitud": 7.004,
+        "vueltas": 44,
+        "distancia_total": 308.052
+      },
+      "fecha_carrera": "2024-07-28",
+      "fecha_sprint": null,
+      "numero_carrera": 14
+    },
+    {
+      "nombre": "Dutch Grand Prix",
+      "circuito": {
+        "nombre": "Circuit Zandvoort",
+        "pais": "Países Bajos",
+        "ciudad": "Zandvoort",
+        "longitud": 4.259,
+        "vueltas": 72,
+        "distancia_total": 306.587
+      },
+      "fecha_carrera": "2024-08-25",
+      "fecha_sprint": null,
+      "numero_carrera": 15
+    },
+    {
+      "nombre": "Italian Grand Prix",
+      "circuito": {
+        "nombre": "Autodromo Nazionale Monza",
+        "pais": "Italia",
+        "ciudad": "Monza",
+        "longitud": 5.793,
+        "vueltas": 53,
+        "distancia_total": 306.72
+      },
+      "fecha_carrera": "2024-09-01",
+      "fecha_sprint": null,
+      "numero_carrera": 16
+    },
+    {
+      "nombre": "Azerbaijan Grand Prix",
+      "circuito": {
+        "nombre": "Baku City Circuit",
+        "pais": "Azerbaiyán",
+        "ciudad": "Bakú",
+        "longitud": 6.003,
+        "vueltas": 51,
+        "distancia_total": 306.049
+      },
+      "fecha_carrera": "2024-09-15",
+      "fecha_sprint": null,
+      "numero_carrera": 17
+    },
+    {
+      "nombre": "Singapore Grand Prix",
+      "circuito": {
+        "nombre": "Marina Bay Street Circuit",
+        "pais": "Singapur",
+        "ciudad": "Singapur",
+        "longitud": 4.94,
+        "vueltas": 62,
+        "distancia_total": 306.143
+      },
+      "fecha_carrera": "2024-09-22",
+      "fecha_sprint": null,
+      "numero_carrera": 18
+    },
+    {
+      "nombre": "United States Grand Prix",
+      "circuito": {
+        "nombre": "Circuit of the Americas",
+        "pais": "Estados Unidos",
+        "ciudad": "Austin",
+        "longitud": 5.513,
+        "vueltas": 56,
+        "distancia_total": 308.405
+      },
+      "fecha_carrera": "2024-10-20",
+      "fecha_sprint": "2024-10-19",
+      "numero_carrera": 19
+    },
+    {
+      "nombre": "Mexico City Grand Prix",
+      "circuito": {
+        "nombre": "Autódromo Hermanos Rodríguez",
+        "pais": "México",
+        "ciudad": "Ciudad de México",
+        "longitud": 4.304,
+        "vueltas": 71,
+        "distancia_total": 305.354
+      },
+      "fecha_carrera": "2024-10-27",
+      "fecha_sprint": null,
+      "numero_carrera": 20
+    },
+    {
+      "nombre": "São Paulo Grand Prix",
+      "circuito": {
+        "nombre": "Autódromo José Carlos Pace",
+        "pais": "Brasil",
+        "ciudad": "São Paulo",
+        "longitud": 4.309,
+        "vueltas": 71,
+        "distancia_total": 305.879
+      },
+      "fecha_carrera": "2024-11-03",
+      "fecha_sprint": "2024-11-02",
+      "numero_carrera": 21
+    },
+    {
+      "nombre": "Las Vegas Grand Prix",
+      "circuito": {
+        "nombre": "Las Vegas Strip Circuit",
+        "pais": "Estados Unidos",
+        "ciudad": "Las Vegas",
+        "longitud": 6.12,
+        "vueltas": 50,
+        "distancia_total": 305.88
+      },
+      "fecha_carrera": "2024-11-23",
+      "fecha_sprint": null,
+      "numero_carrera": 22
+    },
+    {
+      "nombre": "Qatar Grand Prix",
+      "circuito": {
+        "nombre": "Lusail International Circuit",
+        "pais": "Qatar",
+        "ciudad": "Lusail",
+        "longitud": 5.38,
+        "vueltas": 57,
+        "distancia_total": 306.66
+      },
+      "fecha_carrera": "2024-12-01",
+      "fecha_sprint": "2024-11-30",
+      "numero_carrera": 23
+    },
+    {
+      "nombre": "Abu Dhabi Grand Prix",
+      "circuito": {
+        "nombre": "Yas Marina Circuit",
+        "pais": "Emiratos Árabes Unidos",
+        "ciudad": "Abu Dhabi",
+        "longitud": 5.281,
+        "vueltas": 58,
+        "distancia_total": 306.183
+      },
+      "fecha_carrera": "2024-12-08",
+      "fecha_sprint": null,
+      "numero_carrera": 24
+    }
+  ]
+}

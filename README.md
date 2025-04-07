@@ -1,0 +1,1 @@
+0 = "DNF" en la posicion de llegada

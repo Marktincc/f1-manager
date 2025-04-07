@@ -1,0 +1,116 @@
+[
+  {
+    "nombre": "Mercedes",
+    "directorGeneral": "Toto Wolff",
+    "paisOrigen": "Alemania",
+    "campeonatosGanados": 8,
+    "puntosAcumulados": 468,
+    "pilotosOficiales": [
+      "Lewis Hamilton",
+      "George Russell"
+    ]
+  },
+  {
+    "nombre": "Red Bull",
+    "directorGeneral": "Christian Horner",
+    "paisOrigen": "Austria",
+    "campeonatosGanados": 5,
+    "puntosAcumulados": 589,
+    "pilotosOficiales": [
+      "Max Verstappen",
+      "Sergio Pérez"
+    ]
+  },
+  {
+    "nombre": "Ferrari",
+    "directorGeneral": "Frédéric Vasseur",
+    "paisOrigen": "Italia",
+    "campeonatosGanados": 16,
+    "puntosAcumulados": 652,
+    "pilotosOficiales": [
+      "Charles Leclerc",
+      "Carlos Sainz",
+      "Oliver Bearman"
+    ]
+  },
+  {
+    "nombre": "McLaren",
+    "directorGeneral": "Andrea Stella",
+    "paisOrigen": "Reino Unido",
+    "campeonatosGanados": 8,
+    "puntosAcumulados": 666,
+    "pilotosOficiales": [
+      "Lando Norris",
+      "Oscar Piastri"
+    ]
+  },
+  {
+    "nombre": "Aston Martin",
+    "directorGeneral": "Mike Krack",
+    "paisOrigen": "Reino Unido",
+    "campeonatosGanados": 0,
+    "puntosAcumulados": 94,
+    "pilotosOficiales": [
+      "Fernando Alonso",
+      "Lance Stroll"
+    ]
+  },
+  {
+    "nombre": "Alpine F1 Team",
+    "directorGeneral": "Bruno Famin",
+    "paisOrigen": "Francia",
+    "campeonatosGanados": 0,
+    "puntosAcumulados": 65,
+    "pilotosOficiales": [
+      "Pierre Gasly",
+      "Esteban Ocon",
+      "Jack Doohan"
+    ]
+  },
+  {
+    "nombre": "Haas F1 Team",
+    "directorGeneral": "Ayao Komatsu",
+    "paisOrigen": "Estados Unidos",
+    "campeonatosGanados": 0,
+    "puntosAcumulados": 58,
+    "pilotosOficiales": [
+      "Nico Hülkenberg",
+      "Kevin Magnussen"
+    ]
+  },
+  {
+    "nombre": "RB F1 Team",
+    "directorGeneral": "Laurent Mekies",
+    "paisOrigen": "Italia",
+    "campeonatosGanados": 0,
+    "puntosAcumulados": 42,
+    "pilotosOficiales": [
+      "Yuki Tsunoda",
+      "Daniel Ricciardo",
+      "Liam Lawson"
+    ]
+  },
+  {
+    "nombre": "Sauber",
+    "directorGeneral": "Alessandro Alunni Bravi",
+    "paisOrigen": "Suiza",
+    "campeonatosGanados": 0,
+    "puntosAcumulados": 4,
+    "pilotosOficiales": [
+      "Valtteri Bottas",
+      "Guanyu Zhou"
+    ]
+  },
+  {
+    "nombre": "Williams",
+    "directorGeneral": "James Vowles",
+    "paisOrigen": "Reino Unido",
+    "campeonatosGanados": 9,
+    "puntosAcumulados": 17,
+    "pilotosOficiales": [
+      "Alexander Albon",
+      "Logan Sargeant",
+      "Franco Colapinto"
+    ]
+  }
+]
