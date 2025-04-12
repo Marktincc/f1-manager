@@ -1,80 +1,114 @@
 package org.example.services;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.example.models.Circuit;
-import org.example.models.Event;
-import org.example.models.Season;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
-import org.example.models.Circuit;
-import org.example.models.Event;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CircuitServiceTest {
     private CircuitService circuitService;
-    private List<Circuit> testCircuits;
+    private List<Circuit> circuits;
+    private Circuit monza;
+    private Circuit silverstone;
+    private Circuit monaco;
 
     @BeforeEach
     void setUp() {
-        try {
-            ObjectMapper mapper = new ObjectMapper();
-            InputStream circuitStream = getClass().getResourceAsStream("/circuitos_carreras.json");
-            assertNotNull(circuitStream, "El archivo circuitos_carreras.json no se encontró.");
-
-            Season season = mapper.readValue(circuitStream, Season.class);
-            testCircuits = season.getEvents().stream()
-                    .map(Event::getCircuit)
-                    .collect(Collectors.toList());
-
-            circuitService = new CircuitService(testCircuits);
-        } catch (Exception e) {
-            fail("Fallo al cargar los datos de prueba: " + e.getMessage());
-        }
+        circuits = new ArrayList<>();
+        
+        monza = new Circuit("Monza", "Italy", 5.793);
+        monza.setRaces(72);
+        
+        silverstone = new Circuit("Silverstone", "United Kingdom", 5.891);
+        silverstone.setRaces(56);
+        
+        monaco = new Circuit("Monaco", "Monaco", 3.337);
+        monaco.setRaces(68);
+        
+        circuits.add(monza);
+        circuits.add(silverstone);
+        circuits.add(monaco);
+        
+        circuitService = new CircuitService(circuits);
     }
 
     @Test
-    void getAllCircuits() {
-        List<Circuit> circuits = circuitService.getAllCircuits();
-        assertNotNull(circuits);
-        assertFalse(circuits.isEmpty());
-        assertEquals(testCircuits.size(), circuits.size());
+    void testGetAllCircuits() {
+        List<Circuit> result = circuitService.getAllCircuits();
+        assertEquals(3, result.size());
+        assertTrue(result.contains(monza));
+        assertTrue(result.contains(silverstone));
+        assertTrue(result.contains(monaco));
     }
 
     @Test
-    void getCircuitByName() {
-        Optional<Circuit> circuito = circuitService.getCircuitByName("Monza");
-        assertTrue(circuito.isPresent(), "No se encontró el circuito 'Monza'");
-        assertEquals("Italia", circuito.get().getCountry());
+    void testGetCircuitByName() {
+        Optional<Circuit> result = circuitService.getCircuitByName("Monza");
+        assertTrue(result.isPresent());
+        assertEquals(monza, result.get());
+
+        result = circuitService.getCircuitByName("NonExistent");
+        assertFalse(result.isPresent());
     }
 
     @Test
-    void getCircuitsByCountry() {
-        List<Circuit> italianCircuits = circuitService.getCircuitsByCountry("Italia");
-        assertNotNull(italianCircuits);
-        assertFalse(italianCircuits.isEmpty(), "No se encontraron circuitos en Italia");
-        italianCircuits.forEach(circuit ->
-                assertEquals("Italia", circuit.getCountry())
-        );
+    void testGetCircuitsByCountry() {
+        List<Circuit> italianCircuits = circuitService.getCircuitsByCountry("Italy");
+        assertEquals(1, italianCircuits.size());
+        assertEquals(monza, italianCircuits.get(0));
+
+        List<Circuit> nonExistentCountry = circuitService.getCircuitsByCountry("Spain");
+        assertTrue(nonExistentCountry.isEmpty());
     }
 
     @Test
-    void getCircuitByLength() {
-        Circuit longestCircuit = circuitService.getCircuitByLength(true);
-        Circuit shortestCircuit = circuitService.getCircuitByLength(false);
+    void testGetCircuitsByNumberOfRaces() {
+        List<Circuit> circuits72Races = circuitService.getCircuitsByNumberOfRaces(72);
+        assertEquals(1, circuits72Races.size());
+        assertEquals(monza, circuits72Races.get(0));
 
-        assertNotNull(longestCircuit);
-        assertNotNull(shortestCircuit);
-        assertTrue(longestCircuit.getLength() >= shortestCircuit.getLength());
+        List<Circuit> noCircuits = circuitService.getCircuitsByNumberOfRaces(100);
+        assertTrue(noCircuits.isEmpty());
+    }
 
-        testCircuits.forEach(circuit -> {
-            assertTrue(longestCircuit.getLength() >= circuit.getLength());
-            assertTrue(shortestCircuit.getLength() <= circuit.getLength());
-        });
+    @Test
+    void testGetCircuitsSortedByNumberOfRaces() {
+        List<Circuit> sortedCircuits = circuitService.getCircuitsSortedByNumberOfRaces();
+        assertEquals(3, sortedCircuits.size());
+        assertEquals(monza, sortedCircuits.get(0)); // 72 races
+        assertEquals(monaco, sortedCircuits.get(1)); // 68 races
+        assertEquals(silverstone, sortedCircuits.get(2)); // 56 races
+    }
+
+    @Test
+    void testGetCircuitByLength() {
+        Circuit longest = circuitService.getCircuitByLength(true);
+        assertEquals(silverstone, longest);
+
+        Circuit shortest = circuitService.getCircuitByLength(false);
+        assertEquals(monaco, shortest);
+    }
+
+    @Test
+    void testGetCircuitByLengthWithEmptyList() {
+        CircuitService emptyService = new CircuitService(new ArrayList<>());
+        assertNull(emptyService.getCircuitByLength(true));
+        assertNull(emptyService.getCircuitByLength(false));
+    }
+
+    @Test
+    void testCaseInsensitiveSearch() {
+        Optional<Circuit> result = circuitService.getCircuitByName("monza");
+        assertTrue(result.isPresent());
+        assertEquals(monza, result.get());
+
+        List<Circuit> italianCircuits = circuitService.getCircuitsByCountry("ITALY");
+        assertEquals(1, italianCircuits.size());
+        assertEquals(monza, italianCircuits.get(0));
     }
 }

@@ -6,11 +6,11 @@ public class RaceResult {
     private int position;
     private boolean fastestLap;
     private boolean dnf;
-    
+
     public RaceResult() {
         // Default constructor for JSON deserialization
     }
-    
+
     public RaceResult(Driver driver, Team team, int position, boolean fastestLap, boolean dnf) {
         this.driver = driver;
         this.team = team;
@@ -18,53 +18,56 @@ public class RaceResult {
         this.fastestLap = fastestLap;
         this.dnf = dnf;
     }
-    
+
+    public RaceResult(int i, String driver2, String team2) {
+    }
+
     // Getters and Setters
     public Driver getDriver() {
         return driver;
     }
-    
+
     public void setDriver(Driver driver) {
         this.driver = driver;
     }
-    
+
     public Team getTeam() {
         return team;
     }
-    
+
     public void setTeam(Team team) {
         this.team = team;
     }
-    
+
     public int getPosition() {
         return position;
     }
-    
+
     public void setPosition(int position) {
         this.position = position;
     }
-    
+
     public boolean hasFastestLap() {
         return fastestLap;
     }
-    
+
     public void setFastestLap(boolean fastestLap) {
         this.fastestLap = fastestLap;
     }
-    
+
     public boolean isDnf() {
         return dnf;
     }
-    
+
     public void setDnf(boolean dnf) {
         this.dnf = dnf;
     }
-    
+
     public int getPoints() {
         if (dnf || position > 10) {
             return 0;
         }
-        
+
         int points = 0;
         switch (position) {
             case 1: points = 25; break;
@@ -78,17 +81,17 @@ public class RaceResult {
             case 9: points = 2; break;
             case 10: points = 1; break;
         }
-        
+
         if (fastestLap && position <= 10) {
             points += 1;
         }
-        
+
         return points;
     }
-    
+
     @Override
     public String toString() {
-        return position + ". " + driver.getName() + " (" + team.getName() + ")" + 
-               (fastestLap ? " [FL]" : "") + (dnf ? " [DNF]" : "");
+        return position + ". " + driver.getName() + " (" + team.getName() + ")" +
+                (fastestLap ? " [FL]" : "") + (dnf ? " [DNF]" : "");
     }
 }

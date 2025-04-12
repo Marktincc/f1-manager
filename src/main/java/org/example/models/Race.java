@@ -11,21 +11,22 @@ public class Race {
     private List<RaceResult> results;
     private boolean completed;
 
+    // Constructor por defecto para deserialización JSON
     public Race() {
-        // Default constructor for JSON deserialization
         this.results = new ArrayList<>();
-        this.completed = false;
+        this.completed = false;  // Inicialización del estado de la carrera
     }
 
+    // Constructor parametrizado
     public Race(String name, Circuit circuit, LocalDate date) {
         this.name = name;
         this.circuit = circuit;
         this.date = date;
         this.results = new ArrayList<>();
-        this.completed = false;
+        this.completed = false;  // Carrera comienza como no completada
     }
 
-    // Getters and Setters
+    // Getters y Setters
     public String getName() {
         return name;
     }
@@ -58,10 +59,17 @@ public class Race {
         this.results = results;
     }
 
+    // Método para agregar resultados a la carrera
     public void addResult(RaceResult result) {
         this.results.add(result);
     }
 
+    // Método para marcar la carrera como completada
+    public void finishRace() {
+        this.completed = true;
+    }
+
+    // Método para comprobar si la carrera está completa
     public boolean isCompleted() {
         return completed;
     }

@@ -91,7 +91,7 @@ public class Main {
 
             eventController.mostrarInformacionGeneralCarreras();
 
-            MenuInteractivo menu = new MenuInteractivo(driverService, teamService);
+            MenuInteractivo menu = new MenuInteractivo(driverService, teamService, circuitService);
             menu.mostrarMenuPrincipal();
         } catch (Exception e) {
             e.printStackTrace();

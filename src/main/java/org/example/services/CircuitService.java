@@ -47,11 +47,11 @@ public class CircuitService {
         if (circuits == null || circuits.isEmpty()) {
             return null;
         }
-        
+
         return circuits.stream()
-                .max(longest ? 
-                     Comparator.comparingDouble(Circuit::getLength) : 
-                     Comparator.comparingDouble(Circuit::getLength).reversed())
+                .max(longest ?
+                        Comparator.comparingDouble(Circuit::getLength) :
+                        Comparator.comparingDouble(Circuit::getLength).reversed())
                 .orElse(null);
     }
 }

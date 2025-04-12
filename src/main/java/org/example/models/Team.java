@@ -9,29 +9,29 @@ import java.util.List;
 public class Team {
     @JsonProperty("nombre")
     private String name;
-    
+
     @JsonProperty("directorGeneral")
     private String teamPrincipal;
-    
+
     @JsonProperty("paisOrigen")
     private String country;
-    
+
     @JsonProperty("campeonatosGanados")
     private int championshipsWon;
-    
+
     @JsonProperty("puntosAcumulados")
     private int points;
-    
+
     @JsonProperty("pilotosOficiales")
     private List<String> driverNames;
-    
+
     private List<Driver> drivers;
 
     // Default constructor for Jackson
     public Team() {
         this.drivers = new ArrayList<>();
     }
-    
+
     public Team(String name, String country) {
         this.name = name;
         this.country = country;
@@ -71,11 +71,11 @@ public class Team {
     public void setName(String name) {
         this.name = name;
     }
-    
+
     public String getTeamPrincipal() {
         return teamPrincipal;
     }
-    
+
     public void setTeamPrincipal(String teamPrincipal) {
         this.teamPrincipal = teamPrincipal;
     }
@@ -87,11 +87,11 @@ public class Team {
     public void setCountry(String country) {
         this.country = country;
     }
-    
+
     public int getChampionshipsWon() {
         return championshipsWon;
     }
-    
+
     public void setChampionshipsWon(int championshipsWon) {
         this.championshipsWon = championshipsWon;
     }
@@ -103,15 +103,15 @@ public class Team {
     public void setPoints(int points) {
         this.points = points;
     }
-    
+
     public List<String> getDriverNames() {
         return driverNames;
     }
-    
+
     public void setDriverNames(List<String> driverNames) {
         this.driverNames = driverNames;
     }
-    
+
     @Override
     public String toString() {
         return name + " (" + country + ") - " + points + " pts";

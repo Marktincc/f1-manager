@@ -1,0 +1,2746 @@
+[
+  {
+    "nombre": "Alexander Albon",
+    "equipo": "Williams",
+    "edad": 29,
+    "pais_origen": "Tailandia",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 100,
+    "puntos_acumulados_2024": 27,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 11
+      }
+    ]
+  },
+  {
+    "nombre": "Fernando Alonso",
+    "equipo": "Aston Martin",
+    "edad": 43,
+    "pais_origen": "España",
+    "campeonatos_ganados": 2,
+    "carreras_disputadas": 386,
+    "puntos_acumulados_2024": 70,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 0
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 9
+      }
+    ]
+  },
+  {
+    "nombre": "Oliver Bearman",
+    "equipo": "Ferrari",
+    "edad": 19,
+    "pais_origen": "Reino Unido",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 3,
+    "puntos_acumulados_2024": 7,
+    "posiciones_carrera": [
+      {
+        "raceName": "Saudi Arabian Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 12
+      }
+    ]
+  },
+  {
+    "nombre": "Valtteri Bottas",
+    "equipo": "Sauber",
+    "edad": 35,
+    "pais_origen": "Finlandia",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 246,
+    "puntos_acumulados_2024": 10,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 18
+      }
+    ]
+  },
+  {
+    "nombre": "Franco Colapinto",
+    "equipo": "Williams",
+    "edad": 21,
+    "pais_origen": "Argentina",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 9,
+    "puntos_acumulados_2024": 0,
+    "posiciones_carrera": [
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 19
+      }
+    ]
+  },
+  {
+    "nombre": "Jack Doohan",
+    "equipo": "Alpine",
+    "edad": 22,
+    "pais_origen": "Australia",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 1,
+    "puntos_acumulados_2024": 0,
+    "posiciones_carrera": [
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 15
+      }
+    ]
+  },
+  {
+    "nombre": "Pierre Gasly",
+    "equipo": "Alpine",
+    "edad": 29,
+    "pais_origen": "Francia",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 146,
+    "puntos_acumulados_2024": 62,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 7
+      }
+    ]
+  },
+  {
+    "nombre": "Lewis Hamilton",
+    "equipo": "Mercedes",
+    "edad": 40,
+    "pais_origen": "Reino Unido",
+    "campeonatos_ganados": 7,
+    "carreras_disputadas": 356,
+    "puntos_acumulados_2024": 234,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Saudi Arabian Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 0
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 0
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 4
+      }
+    ]
+  },
+  {
+    "nombre": "Nico Hülkenberg",
+    "equipo": "Haas",
+    "edad": 37,
+    "pais_origen": "Alemania",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 208,
+    "puntos_acumulados_2024": 9,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 8
+      }
+    ]
+  },
+  {
+    "nombre": "Liam Lawson",
+    "equipo": "RB F1 Team",
+    "edad": 23,
+    "pais_origen": "Nueva Zelanda",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 6,
+    "puntos_acumulados_2024": 2,
+    "posiciones_carrera": [
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 17
+      }
+    ]
+  },
+  {
+    "nombre": "Charles Leclerc",
+    "equipo": "Ferrari",
+    "edad": 27,
+    "pais_origen": "Mónaco",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 146,
+    "puntos_acumulados_2024": 357,
+    "posiciones_carrera": [
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 3
+      }
+    ]
+  },
+  {
+    "nombre": "Kevin Magnussen",
+    "equipo": "Haas",
+    "edad": 32,
+    "pais_origen": "Dinamarca",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 168,
+    "puntos_acumulados_2024": 6,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Saudi Arabian Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 16
+      }
+    ]
+  },
+  {
+    "nombre": "Lando Norris",
+    "equipo": "McLaren",
+    "edad": 25,
+    "pais_origen": "Reino Unido",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 110,
+    "puntos_acumulados_2024": 374,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Saudi Arabian Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      }
+    ]
+  },
+  {
+    "nombre": "Esteban Ocon",
+    "equipo": "Alpine",
+    "edad": 28,
+    "pais_origen": "Francia",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 153,
+    "puntos_acumulados_2024": 12,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Saudi Arabian Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 13
+      }
+    ]
+  },
+  {
+    "nombre": "Sergio Pérez",
+    "equipo": "Red Bull",
+    "edad": 35,
+    "pais_origen": "México",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 276,
+    "puntos_acumulados_2024": 285,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 20
+      }
+    ]
+  },
+  {
+    "nombre": "Oscar Piastri",
+    "equipo": "McLaren",
+    "edad": 23,
+    "pais_origen": "Australia",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 48,
+    "puntos_acumulados_2024": 292,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 10
+      }
+    ]
+  },
+  {
+    "nombre": "Daniel Ricciardo",
+    "equipo": "RB F1 Team",
+    "edad": 35,
+    "pais_origen": "Australia",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 248,
+    "puntos_acumulados_2024": 32,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Saudi Arabian Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 15
+      }
+    ]
+  },
+  {
+    "nombre": "George Russell",
+    "equipo": "Mercedes",
+    "edad": 27 ,
+    "pais_origen": "Reino Unido",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 110,
+    "puntos_acumulados_2024": 175,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 0
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 0
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 0
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 5
+      }
+    ]
+  },
+  {
+    "nombre": "Carlos Sainz",
+    "equipo": "Ferrari",
+    "edad": 30,
+    "pais_origen": "España",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 207,
+    "puntos_acumulados_2024": 255,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 0
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 0
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 2
+      }
+    ]
+  },
+  {
+    "nombre": "Logan Sargeant",
+    "equipo": "Williams",
+    "edad": 24,
+    "pais_origen": "Estados Unidos",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 22,
+    "puntos_acumulados_2024": 0,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Saudi Arabian Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 17
+      }
+    ]
+  },
+  {
+    "nombre": "Lance Stroll",
+    "equipo": "Aston Martin",
+    "edad": 26,
+    "pais_origen": "Canadá",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 142,
+    "puntos_acumulados_2024": 74,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 14
+      }
+    ]
+  },
+  {
+    "nombre": "Yuki Tsunoda",
+    "equipo": "RB F1 Team",
+    "edad": 24,
+    "pais_origen": "Japón",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 85,
+    "puntos_acumulados_2024": 17,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 9,
+        "posicionLlegada": 11
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 10
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 8,
+        "posicionLlegada": 12
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 10,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 7
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 9
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 12
+      }
+    ]
+  },
+  {
+    "nombre": "Max Verstappen",
+    "equipo": "Red Bull",
+    "edad": 27,
+    "pais_origen": "Países Bajos",
+    "campeonatos_ganados": 3,
+    "carreras_disputadas": 194,
+    "puntos_acumulados_2024": 575,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Saudi Arabia Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 0
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 1,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 3,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 11,
+        "posicionLlegada": 4
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 7,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 6,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 2
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 3
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 6
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 5,
+        "posicionLlegada": 5
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 2,
+        "posicionLlegada": 1
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 4,
+        "posicionLlegada": 6
+      }
+    ]
+  },
+  {
+    "nombre": "Guanyu Zhou",
+    "equipo": "Sauber",
+    "edad": 25,
+    "pais_origen": "China",
+    "campeonatos_ganados": 0,
+    "carreras_disputadas": 83,
+    "puntos_acumulados_2024": 0,
+    "posiciones_carrera": [
+      {
+        "raceName": "Bahrain Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Saudi Arabian Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "Australian Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Japanese Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Chinese Grand Prix",
+        "posicionPartida": 16,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Miami Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Emilia Romagna Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Monaco Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 16
+      },
+      {
+        "raceName": "Canadian Grand Prix",
+        "posicionPartida": 0,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Spanish Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Austrian Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 17
+      },
+      {
+        "raceName": "British Grand Prix",
+        "posicionPartida": 14,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Hungarian Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Belgian Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Dutch Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 20
+      },
+      {
+        "raceName": "Italian Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 18
+      },
+      {
+        "raceName": "Azerbaijan Grand Prix",
+        "posicionPartida": 17,
+        "posicionLlegada": 14
+      },
+      {
+        "raceName": "Singapore Grand Prix",
+        "posicionPartida": 20,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "United States Grand Prix",
+        "posicionPartida": 18,
+        "posicionLlegada": 19
+      },
+      {
+        "raceName": "Mexico City Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "São Paulo Grand Prix",
+        "posicionPartida": 19,
+        "posicionLlegada": 15
+      },
+      {
+        "raceName": "Las Vegas Grand Prix",
+        "posicionPartida": 13,
+        "posicionLlegada": 13
+      },
+      {
+        "raceName": "Qatar Grand Prix",
+        "posicionPartida": 12,
+        "posicionLlegada": 8
+      },
+      {
+        "raceName": "Abu Dhabi Grand Prix",
+        "posicionPartida": 15,
+        "posicionLlegada": 13
+      }
+    ]
+  }
+]

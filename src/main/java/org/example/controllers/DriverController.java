@@ -48,19 +48,19 @@ public class DriverController {
 
     public void mostrarPosicionesPilotosEnCarrera(String nombreCarrera) {
         List<Driver> posiciones = driverService.getDriverPositionsForRace(nombreCarrera);
-        
+
         if (posiciones.isEmpty()) {
             System.out.println("No hay datos para la carrera: " + nombreCarrera);
             return;
         }
-        
+
         System.out.println("\n===== POSICIONES DE PILOTOS EN " + nombreCarrera.toUpperCase() + " =====");
         int posicion = 1;
         for (Driver driver : posiciones) {
             Driver.RacePosition racePos = driver.getRacePositions().stream()
                     .filter(pos -> pos.getRaceName().equalsIgnoreCase(nombreCarrera))
                     .findFirst().get();
-                    
+
             System.out.println(posicion + ". " + driver.getName() + " (" + driver.getTeamName() + ") - " +
                     "Salida: P" + racePos.getStartPosition() + ", Llegada: P" + racePos.getFinishPosition());
             posicion++;
@@ -69,12 +69,12 @@ public class DriverController {
 
     public void mostrarPuntosPilotosHastaCarrera(String nombreCarrera, List<String> todasLasCarreras) {
         List<Driver> clasificacion = driverService.getDriverPointsUpToRace(nombreCarrera, todasLasCarreras);
-        
+
         if (clasificacion.isEmpty()) {
             System.out.println("No hay datos hasta la carrera: " + nombreCarrera);
             return;
         }
-        
+
         System.out.println("\n===== PUNTOS DE PILOTOS HASTA " + nombreCarrera.toUpperCase() + " =====");
         int posicion = 1;
         for (Driver driver : clasificacion) {

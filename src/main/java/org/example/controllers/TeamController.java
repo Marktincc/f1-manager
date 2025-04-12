@@ -14,11 +14,13 @@ public class TeamController {
     }
 
     public void mostrarTodosLosEquipos() {
-        List<Team> equipos = teamService.getAllTeams();
-        for (Team team : equipos) {
-            System.out.println(team);
+        if (teamService.getAllTeams().isEmpty()) {
+            System.out.println("No hay equipos registrados.");
+        } else {
+            teamService.getAllTeams().forEach(team -> System.out.println(team));
         }
     }
+
 
     public void mostrarEquipoPorNombre(String nombre) {
         Optional<Team> equipo = teamService.getTeamByName(nombre);
@@ -29,9 +31,12 @@ public class TeamController {
     }
 
     public void mostrarEquiposOrdenadosPorPuntos() {
-        List<Team> ordenados = teamService.getTeamsSortedByPoints();
-        for (Team team : ordenados) {
-            System.out.println(team.getName() + " - Puntos: " + team.getPoints());
-        }
+        System.out.println("RANKING DE EQUIPOS");
+        teamService.getAllTeams()
+                .stream()
+                .sorted((team1, team2) -> Integer.compare(team2.getPoints(), team1.getPoints())) // Ordenar por puntos
+                .forEach(team -> System.out.println(team.getName() + " - " + team.getPoints() + " puntos"));
     }
+
+
 }

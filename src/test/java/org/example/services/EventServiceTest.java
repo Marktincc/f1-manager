@@ -12,50 +12,95 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EventServiceTest {
     private EventService eventService;
-    private List<Event> testEvents;
+    private List<Event> events;
+    private Event monacoGP;
+    private Event britishGP;
+    private Event italianGP;
 
     @BeforeEach
     void setUp() {
-        testEvents = new ArrayList<>();
-        Circuit circuit1 = new Circuit("Monza", "Italia", 5.793);
-        Circuit circuit2 = new Circuit("Silverstone", "Reino Unido", 5.891);
-
-        Event event1 = new Event("Gran Premio de Italia", circuit1, "2023-09-03", null, 1);
-        Event event2 = new Event("British Grand Prix", circuit2, "2023-07-09", null, 2);
-
-
-        testEvents.add(event1);
-        testEvents.add(event2);
-
-        eventService = new EventService(testEvents);
+        events = new ArrayList<>();
+        
+        Circuit monaco = new Circuit("Monaco", "Monaco", 3.337);
+        Circuit silverstone = new Circuit("Silverstone", "United Kingdom", 5.891);
+        Circuit monza = new Circuit("Monza", "Italy", 5.793);
+        
+        monacoGP = new Event("Monaco Grand Prix", monaco, "2024-05-26", null, 7);
+        britishGP = new Event("British Grand Prix", silverstone, "2024-07-07", "2024-07-06", 10);
+        italianGP = new Event("Italian Grand Prix", monza, "2024-09-01", "2024-08-31", 14);
+        
+        events.add(monacoGP);
+        events.add(britishGP);
+        events.add(italianGP);
+        
+        eventService = new EventService(events);
     }
 
     @Test
-    void getAllEvents() {
-        List<Event> events = eventService.getAllEvents();
-        assertNotNull(events);
-        assertEquals(2, events.size());
+    void testGetAllEvents() {
+        List<Event> result = eventService.getAllEvents();
+        assertEquals(3, result.size());
+        assertTrue(result.contains(monacoGP));
+        assertTrue(result.contains(britishGP));
+        assertTrue(result.contains(italianGP));
     }
 
     @Test
-    void getEventByName() {
-        Event event = eventService.getEventByName("Gran Premio de Italia");
-        assertNotNull(event);
-        assertEquals("Monza", event.getCircuit().getName());
+    void testGetEventByName() {
+        Event result = eventService.getEventByName("Monaco Grand Prix");
+        assertNotNull(result);
+        assertEquals(monacoGP, result);
+        
+        // Test case insensitive search
+        result = eventService.getEventByName("monaco grand prix");
+        assertNotNull(result);
+        assertEquals(monacoGP, result);
+        
+        // Test non-existent event
+        result = eventService.getEventByName("Spanish Grand Prix");
+        assertNull(result);
     }
 
     @Test
-    void getEventsByCountry() {
-        List<Event> italianEvents = eventService.getEventsByCountry("Italia");
-        assertNotNull(italianEvents);
-        assertEquals(1, italianEvents.size());
-        assertEquals("Monza", italianEvents.get(0).getCircuit().getName());
+    void testGetEventsByCountry() {
+        List<Event> ukEvents = eventService.getEventsByCountry("United Kingdom");
+        assertEquals(1, ukEvents.size());
+        assertEquals(britishGP, ukEvents.get(0));
+        
+        // Test case insensitive search
+        List<Event> italyEvents = eventService.getEventsByCountry("ITALY");
+        assertEquals(1, italyEvents.size());
+        assertEquals(italianGP, italyEvents.get(0));
+        
+        // Test non-existent country
+        List<Event> nonExistentEvents = eventService.getEventsByCountry("Spain");
+        assertTrue(nonExistentEvents.isEmpty());
     }
 
     @Test
-    void getEventByDate() {
-        Event event = eventService.getEventByDate("2023-09-03");
-        assertNotNull(event);
-        assertEquals("Gran Premio de Italia", event.getName());
+    void testGetEventByDate() {
+        // Test race date search
+        Event result = eventService.getEventByDate("2024-05-26");
+        assertNotNull(result);
+        assertEquals(monacoGP, result);
+        
+        // Test sprint date search
+        result = eventService.getEventByDate("2024-07-06");
+        assertNotNull(result);
+        assertEquals(britishGP, result);
+        
+        // Test non-existent date
+        result = eventService.getEventByDate("2024-12-25");
+        assertNull(result);
+    }
+
+    @Test
+    void testWithEmptyEventsList() {
+        EventService emptyService = new EventService(new ArrayList<>());
+        
+        assertTrue(emptyService.getAllEvents().isEmpty());
+        assertNull(emptyService.getEventByName("Any Name"));
+        assertTrue(emptyService.getEventsByCountry("Any Country").isEmpty());
+        assertNull(emptyService.getEventByDate("2024-01-01"));
     }
 }

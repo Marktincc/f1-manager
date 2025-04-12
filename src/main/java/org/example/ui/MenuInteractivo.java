@@ -1,7 +1,10 @@
+
 package org.example.ui;
 
+import org.example.models.Circuit;
 import org.example.models.Driver;
 import org.example.models.Team;
+import org.example.services.CircuitService;
 import org.example.services.DriverService;
 import org.example.services.TeamService;
 
@@ -12,11 +15,13 @@ public class MenuInteractivo {
     private final Scanner scanner;
     private final DriverService driverService;
     private final TeamService teamService;
+    private final CircuitService circuitService;
 
-    public MenuInteractivo(DriverService driverService, TeamService teamService) {
+    public MenuInteractivo(DriverService driverService, TeamService teamService, CircuitService circuitService) {
         this.scanner = new Scanner(System.in);
         this.driverService = driverService;
         this.teamService = teamService;
+        this.circuitService = circuitService;
     }
 
     public void mostrarMenuPrincipal() {
@@ -28,7 +33,8 @@ public class MenuInteractivo {
             System.out.println("2. Información de Equipos");
             System.out.println("3. Estadísticas de la Temporada");
             System.out.println("4. Comparativas");
-            System.out.println("5. Salir");
+            System.out.println("5. Información de Circuitos");
+            System.out.println("6. Salir");
             System.out.print("Seleccione una opción: ");
 
             int opcion = obtenerOpcionNumerica();
@@ -47,6 +53,9 @@ public class MenuInteractivo {
                     mostrarMenuComparativas();
                     break;
                 case 5:
+                    mostrarMenuCircuitos();
+                    break;
+                case 6:
                     salir = true;
                     System.out.println("¡Gracias por usar F1 Manager 2024!");
                     break;
@@ -199,6 +208,98 @@ public class MenuInteractivo {
             }
         }
     }
+    private void mostrarMenuCircuitos() {
+        boolean volver = false;
+
+        while (!volver) {
+            System.out.println("\n===== INFORMACIÓN DE CIRCUITOS =====");
+            System.out.println("1. Ver todos los circuitos");
+            System.out.println("2. Buscar circuito por nombre");
+            System.out.println("3. Ver circuitos por país");
+            System.out.println("4. Ver detalles de un circuito");
+            System.out.println("5. Volver al menú principal");
+            System.out.print("Seleccione una opción: ");
+
+            int opcion = obtenerOpcionNumerica();
+
+            switch (opcion) {
+                case 1:
+                    mostrarTodosLosCircuitos();
+                    break;
+                case 2:
+                    buscarCircuitoPorNombre();
+                    break;
+                case 3:
+                    mostrarCircuitosPorPais();
+                    break;
+                case 4:
+                    mostrarDetallesCircuito();
+                    break;
+                case 5:
+                    volver = true;
+                    break;
+                default:
+                    System.out.println("Opción no válida. Intente nuevamente.");
+            }
+        }
+    }
+    private void mostrarTodosLosCircuitos() {
+        System.out.println("\n===== TODOS LOS CIRCUITOS =====");
+        List<Circuit> circuitos = circuitService.getAllCircuits();
+        for (Circuit circuito : circuitos) {
+            System.out.println(circuito.getName() + " - " + circuito.getCountry());
+        }
+        esperarEnter();
+    }
+
+    private void buscarCircuitoPorNombre() {
+        System.out.print("\nIngrese el nombre del circuito: ");
+        String nombre = scanner.nextLine();
+        circuitService.getCircuitByName(nombre).ifPresentOrElse(circuit -> {
+            System.out.println("\n===== INFORMACIÓN DEL CIRCUITO =====");
+            System.out.println("Nombre: " + circuit.getName());
+            System.out.println("País: " + circuit.getCountry());
+            System.out.println("Longitud: " + circuit.getLength() + " km");
+        }, () -> System.out.println("Circuito no encontrado."));
+
+        esperarEnter();
+    }
+
+    private void mostrarCircuitosPorPais() {
+        System.out.print("\nIngrese el país: ");
+        String pais = scanner.nextLine();
+
+        List<Circuit> circuitos = circuitService.getCircuitsByCountry(pais);
+
+        System.out.println("\n===== CIRCUITOS EN " + pais.toUpperCase() + " =====");
+
+        if (circuitos.isEmpty()) {
+            System.out.println("No se encontraron circuitos en este país.");
+        } else {
+            circuitos.forEach(circuito -> {
+                System.out.println("- " + circuito.getName() + " (" + circuito.getLength() + " km)");
+            });
+        }
+
+        esperarEnter();
+    }
+
+
+    private void mostrarDetallesCircuito() {
+        System.out.print("\nIngrese el nombre del circuito: ");
+        String nombre = scanner.nextLine();
+
+        circuitService.getCircuitByName(nombre).ifPresentOrElse(circuit -> {
+            System.out.println("\n===== DETALLES DEL CIRCUITO: " + circuit.getName().toUpperCase() + " =====");
+            System.out.println("Nombre: " + circuit.getName());
+            System.out.println("País: " + circuit.getCountry());
+            System.out.println("Longitud: " + circuit.getLength() + " km");
+            System.out.println("Vueltas: " + circuit.getLaps());
+            System.out.println("Distancia total: " + circuit.getTotalDistance() + " km");
+        }, () -> System.out.println("Circuito no encontrado."));
+
+        esperarEnter();
+    }
 
     // Métodos para mostrar información de pilotos
     private void mostrarTodosLosPilotos() {
@@ -214,15 +315,15 @@ public class MenuInteractivo {
         System.out.print("\nIngrese el nombre del piloto: ");
         String nombre = scanner.nextLine();
         driverService.getDriverByName(nombre).ifPresentOrElse(
-            piloto -> {
-                System.out.println("\n===== INFORMACIÓN DEL PILOTO =====");
-                System.out.println("Nombre: " + piloto.getName());
-                System.out.println("Equipo: " + piloto.getTeamName());
-                System.out.println("País: " + piloto.getNationality());
-                System.out.println("Edad: " + piloto.getAge());
-                System.out.println("Puntos 2024: " + piloto.getPoints());
-            },
-            () -> System.out.println("Piloto no encontrado.")
+                piloto -> {
+                    System.out.println("\n===== INFORMACIÓN DEL PILOTO =====");
+                    System.out.println("Nombre: " + piloto.getName());
+                    System.out.println("Equipo: " + piloto.getTeamName());
+                    System.out.println("País: " + piloto.getNationality());
+                    System.out.println("Edad: " + piloto.getAge());
+                    System.out.println("Puntos 2024: " + piloto.getPoints());
+                },
+                () -> System.out.println("Piloto no encontrado.")
         );
         esperarEnter();
     }
@@ -257,21 +358,21 @@ public class MenuInteractivo {
         System.out.print("\nIngrese el nombre del piloto: ");
         String nombre = scanner.nextLine();
         driverService.getDriverByName(nombre).ifPresentOrElse(
-            piloto -> {
-                System.out.println("\n===== DETALLES DE " + piloto.getName().toUpperCase() + " =====");
-                System.out.println("Equipo: " + piloto.getTeamName());
-                System.out.println("País: " + piloto.getNationality());
-                System.out.println("Edad: " + piloto.getAge());
-                System.out.println("Campeonatos ganados: " + piloto.getChampionshipsWon());
-                // System.out.println("Carreras disputadas: " + piloto.getRacesCompleted());
-                System.out.println("Puntos 2024: " + piloto.getPoints());
-                
-                System.out.println("\nResultados 2024:");
-                piloto.getRacePositions().forEach(posicion -> {
-                    System.out.println(posicion.getRaceName() + ": P" + posicion.getStartPosition() + " → P" + posicion.getFinishPosition());
-                });
-            },
-            () -> System.out.println("Piloto no encontrado.")
+                piloto -> {
+                    System.out.println("\n===== DETALLES DE " + piloto.getName().toUpperCase() + " =====");
+                    System.out.println("Equipo: " + piloto.getTeamName());
+                    System.out.println("País: " + piloto.getNationality());
+                    System.out.println("Edad: " + piloto.getAge());
+                    System.out.println("Campeonatos ganados: " + piloto.getChampionshipsWon());
+                    // System.out.println("Carreras disputadas: " + piloto.getRacesCompleted());
+                    System.out.println("Puntos 2024: " + piloto.getPoints());
+
+                    System.out.println("\nResultados 2024:");
+                    piloto.getRacePositions().forEach(posicion -> {
+                        System.out.println(posicion.getRaceName() + ": P" + posicion.getStartPosition() + " → P" + posicion.getFinishPosition());
+                    });
+                },
+                () -> System.out.println("Piloto no encontrado.")
         );
         esperarEnter();
     }
@@ -290,12 +391,12 @@ public class MenuInteractivo {
         System.out.print("\nIngrese el nombre del equipo: ");
         String nombre = scanner.nextLine();
         teamService.getTeamByName(nombre).ifPresentOrElse(
-            equipo -> {
-                System.out.println("\n===== INFORMACIÓN DEL EQUIPO =====");
-                System.out.println("Nombre: " + equipo.getName());
-                System.out.println("Puntos: " + equipo.getPoints());
-            },
-            () -> System.out.println("Equipo no encontrado.")
+                equipo -> {
+                    System.out.println("\n===== INFORMACIÓN DEL EQUIPO =====");
+                    System.out.println("Nombre: " + equipo.getName());
+                    System.out.println("Puntos: " + equipo.getPoints());
+                },
+                () -> System.out.println("Equipo no encontrado.")
         );
         esperarEnter();
     }
@@ -315,14 +416,14 @@ public class MenuInteractivo {
         System.out.print("\nIngrese el nombre del equipo: ");
         String nombre = scanner.nextLine();
         teamService.getTeamByName(nombre).ifPresentOrElse(
-            equipo -> {
-                System.out.println("\n===== PILOTOS DE " + equipo.getName().toUpperCase() + " =====");
-                // List<Driver> pilotos = teamService.getDriversByTeam(nombre);
-                // for (Driver piloto : pilotos) {
-                //     System.out.println(piloto.getName() + " - " + piloto.getPoints() + " puntos");
-                // }
-            },
-            () -> System.out.println("Equipo no encontrado.")
+                equipo -> {
+                    System.out.println("\n===== PILOTOS DE " + equipo.getName().toUpperCase() + " =====");
+                    // List<Driver> pilotos = teamService.getDriversByTeam(nombre);
+                    // for (Driver piloto : pilotos) {
+                    //     System.out.println(piloto.getName() + " - " + piloto.getPoints() + " puntos");
+                    // }
+                },
+                () -> System.out.println("Equipo no encontrado.")
         );
         esperarEnter();
     }

@@ -28,7 +28,7 @@ public class DriverService {
 
     public List<Driver> getDriversByTeam(String teamName) {
         return drivers.stream()
-                .filter(driver -> driver.getTeam() != null && 
+                .filter(driver -> driver.getTeam() != null &&
                         driver.getTeam().getName().equalsIgnoreCase(teamName))
                 .collect(Collectors.toList());
     }
@@ -55,53 +55,41 @@ public class DriverService {
         return drivers.stream()
                 .filter(driver -> driver.getRacePositions().stream()
                         .anyMatch(pos -> pos.getRaceName().equalsIgnoreCase(raceName)))
-                .sorted(Comparator.comparing(driver -> 
-                    driver.getRacePositions().stream()
-                        .filter(pos -> pos.getRaceName().equalsIgnoreCase(raceName))
-                        .findFirst()
-                        .get()
-                        .getFinishPosition()))
+                .sorted(Comparator.comparing(driver ->
+                        driver.getRacePositions().stream()
+                                .filter(pos -> pos.getRaceName().equalsIgnoreCase(raceName))
+                                .findFirst()
+                                .get()
+                                .getFinishPosition()))
                 .collect(Collectors.toList());
     }
 
-    public List<Driver> getDriverPointsUpToRace(String raceName, List<String> allRaceNames) {
-        // Find the index of the specified race
-        int raceIndex = allRaceNames.indexOf(raceName);
+    public List<Driver> getDriverPointsUpToRace(String raceName, List<String> allRaces) {
+        // Filtra las carreras que ocurrieron hasta la carrera 'raceName' en la lista 'allRaces'
+        int raceIndex = allRaces.indexOf(raceName);
         if (raceIndex == -1) {
             return new ArrayList<>();
         }
-        
-        // Get races up to the specified one
-        List<String> racesUpToTarget = allRaceNames.subList(0, raceIndex + 1);
-        
-        // Create a copy of drivers to avoid modifying the original list
-        List<Driver> driversWithCalculatedPoints = new ArrayList<>();
-        
-        for (Driver originalDriver : drivers) {
-            Driver driverCopy = new Driver();
-            driverCopy.setName(originalDriver.getName());
-            driverCopy.setTeamName(originalDriver.getTeamName());
-            
-            // Calculate points up to the specified race
+
+        List<String> racesUpToRace = allRaces.subList(0, raceIndex + 1); // Incluye hasta la carrera 'raceName'
+
+        // Calcula los puntos acumulados hasta la carrera
+        for (Driver driver : drivers) {
             int totalPoints = 0;
-            for (Driver.RacePosition position : originalDriver.getRacePositions()) {
-                if (racesUpToTarget.contains(position.getRaceName())) {
+            for (Driver.RacePosition position : driver.getRacePositions()) {
+                if (racesUpToRace.contains(position.getRaceName())) {
                     totalPoints += calculatePointsForPosition(position.getFinishPosition());
                 }
             }
-            driverCopy.setPoints(totalPoints);
-            driversWithCalculatedPoints.add(driverCopy);
+            driver.setPoints(totalPoints); // Asegúrate de actualizar los puntos acumulados
         }
-        
-        // Sort by points
-        return driversWithCalculatedPoints.stream()
-                .sorted(Comparator.comparing(Driver::getPoints).reversed())
-                .collect(Collectors.toList());
+
+        return drivers;
     }
 
-    private int calculatePointsForPosition(int position) {
-        // F1 points system
-        switch (position) {
+    private int calculatePointsForPosition(int finishPosition) {
+        // Asegúrate de que las posiciones estén correctamente mapeadas a puntos
+        switch (finishPosition) {
             case 1: return 25;
             case 2: return 18;
             case 3: return 15;
@@ -115,4 +103,5 @@ public class DriverService {
             default: return 0;
         }
     }
+
 }
