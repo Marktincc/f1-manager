@@ -64,32 +64,44 @@ public class DriverService {
                 .collect(Collectors.toList());
     }
 
-    public List<Driver> getDriverPointsUpToRace(String raceName, List<String> allRaces) {
-        // Filtra las carreras que ocurrieron hasta la carrera 'raceName' en la lista 'allRaces'
-        int raceIndex = allRaces.indexOf(raceName);
+    public List<Driver> getDriverPointsUpToRace(String raceName, List<String> allRaceNames) {
+        // Find the index of the specified race
+        int raceIndex = allRaceNames.indexOf(raceName);
         if (raceIndex == -1) {
             return new ArrayList<>();
         }
 
-        List<String> racesUpToRace = allRaces.subList(0, raceIndex + 1); // Incluye hasta la carrera 'raceName'
+        // Get races up to the specified one
+        List<String> racesUpToTarget = allRaceNames.subList(0, raceIndex + 1);
 
-        // Calcula los puntos acumulados hasta la carrera
-        for (Driver driver : drivers) {
+        // Create a copy of drivers to avoid modifying the original list
+        List<Driver> driversWithCalculatedPoints = new ArrayList<>();
+
+        for (Driver originalDriver : drivers) {
+            Driver driverCopy = new Driver();
+            driverCopy.setName(originalDriver.getName());
+            driverCopy.setTeamName(originalDriver.getTeamName());
+
+            // Calculate points up to the specified race
             int totalPoints = 0;
-            for (Driver.RacePosition position : driver.getRacePositions()) {
-                if (racesUpToRace.contains(position.getRaceName())) {
+            for (Driver.RacePosition position : originalDriver.getRacePositions()) {
+                if (racesUpToTarget.contains(position.getRaceName())) {
                     totalPoints += calculatePointsForPosition(position.getFinishPosition());
                 }
             }
-            driver.setPoints(totalPoints); // Asegúrate de actualizar los puntos acumulados
+            driverCopy.setPoints(totalPoints);
+            driversWithCalculatedPoints.add(driverCopy);
         }
 
-        return drivers;
+        // Sort by points
+        return driversWithCalculatedPoints.stream()
+                .sorted(Comparator.comparing(Driver::getPoints).reversed())
+                .collect(Collectors.toList());
     }
 
-    private int calculatePointsForPosition(int finishPosition) {
-        // Asegúrate de que las posiciones estén correctamente mapeadas a puntos
-        switch (finishPosition) {
+    private int calculatePointsForPosition(int position) {
+        // F1 points system
+        switch (position) {
             case 1: return 25;
             case 2: return 18;
             case 3: return 15;
@@ -103,5 +115,4 @@ public class DriverService {
             default: return 0;
         }
     }
-
 }

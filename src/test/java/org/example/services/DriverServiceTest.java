@@ -174,6 +174,7 @@ class DriverServiceTest {
 
     @Test
     void testCalculatePointsForPosition() {
+
         Driver.RacePosition racePosition = new Driver.RacePosition();
         racePosition.setRaceName("TestRace");
         racePosition.setFinishPosition(1);
@@ -181,10 +182,71 @@ class DriverServiceTest {
         List<Driver.RacePosition> positions = new ArrayList<>();
         positions.add(racePosition);
         driver1.setRacePositions(positions);
+        driver2.setRacePositions(positions);
+
         
         List<String> races = Arrays.asList("TestRace");
         
         List<Driver> results = driverService.getDriverPointsUpToRace("TestRace", races);
         assertEquals(25, results.get(0).getPoints()); // 1st place should get 25 points
+
+    }
+
+    @Test
+    void testCalculateAllPointsPositions() {
+        int[] expectedPoints = {25, 18, 15, 12, 10, 8, 6, 4, 2, 1};
+
+        for (int i = 1; i <= 10; i++) {
+            Driver.RacePosition racePosition = new Driver.RacePosition();
+            racePosition.setRaceName("FullRace");
+            racePosition.setFinishPosition(i);
+
+            driver1.clearRacePositions();
+            driver1.addRacePosition(racePosition);
+
+            List<String> races = List.of("FullRace");
+            List<Driver> results = driverService.getDriverPointsUpToRace("FullRace", races);
+
+            assertEquals(expectedPoints[i - 1], results.get(0).getPoints(), "Incorrect points for position " + i);
+        }
+    }
+
+    @Test
+    void testCalculatePointsForInvalidPosition() {
+        Driver.RacePosition racePosition = new Driver.RacePosition();
+        racePosition.setRaceName("InvalidRace");
+        racePosition.setFinishPosition(11); // fuera del top 10
+
+        driver1.clearRacePositions();
+        driver1.addRacePosition(racePosition);
+
+        List<String> races = List.of("InvalidRace");
+        List<Driver> results = driverService.getDriverPointsUpToRace("InvalidRace", races);
+
+        assertEquals(0, results.get(0).getPoints(), "Should be 0 points for invalid position");
+    }
+    @Test
+    void testRaceNameExistsInAllRaceNames() {
+        List<String> races = Arrays.asList("Race1", "Race2");
+
+        Driver.RacePosition pos = new Driver.RacePosition();
+        pos.setRaceName("Race1");
+        pos.setFinishPosition(1);
+
+        driver1.getRacePositions().add(pos);
+
+        List<Driver> results = driverService.getDriverPointsUpToRace("Race1", races);
+
+        assertEquals(25, results.get(0).getPoints());
+    }
+    @Test
+    void testGetDriverPointsUpToRaceWhenRaceNameNotFound() {
+        List<String> races = Arrays.asList("Race1", "Race2");
+        String invalidRaceName = "NonExistentRace";
+
+        List<Driver> results = driverService.getDriverPointsUpToRace(invalidRaceName, races);
+
+        assertNotNull(results); // Asegurarse de que no sea null
+        assertTrue(results.isEmpty(), "Expected empty list when race name is not found");
     }
 }

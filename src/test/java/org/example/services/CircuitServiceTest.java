@@ -49,7 +49,7 @@ class CircuitServiceTest {
     @Test
     void testGetCircuitByName() {
         Optional<Circuit> result = circuitService.getCircuitByName("Monza");
-        assertTrue(result.isPresent());
+ ñ        assertTrue(result.isPresent());
         assertEquals(monza, result.get());
 
         result = circuitService.getCircuitByName("NonExistent");
