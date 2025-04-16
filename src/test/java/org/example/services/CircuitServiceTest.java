@@ -20,20 +20,20 @@ class CircuitServiceTest {
     @BeforeEach
     void setUp() {
         circuits = new ArrayList<>();
-        
+
         monza = new Circuit("Monza", "Italy", 5.793);
         monza.setRaces(72);
-        
+
         silverstone = new Circuit("Silverstone", "United Kingdom", 5.891);
         silverstone.setRaces(56);
-        
+
         monaco = new Circuit("Monaco", "Monaco", 3.337);
         monaco.setRaces(68);
-        
+
         circuits.add(monza);
         circuits.add(silverstone);
         circuits.add(monaco);
-        
+
         circuitService = new CircuitService(circuits);
     }
 
@@ -49,7 +49,7 @@ class CircuitServiceTest {
     @Test
     void testGetCircuitByName() {
         Optional<Circuit> result = circuitService.getCircuitByName("Monza");
- ñ        assertTrue(result.isPresent());
+        assertTrue(result.isPresent());
         assertEquals(monza, result.get());
 
         result = circuitService.getCircuitByName("NonExistent");
